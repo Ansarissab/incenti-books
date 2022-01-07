@@ -69,8 +69,8 @@ include_once 'config.php';
         <meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9, user-scalable=no, target-densitydpi=device-dpi">
 		<script src="javascript/head.js"></script>
-		<link rel="stylesheet" media="screen" href="styles/screen.css">
-		<link rel="stylesheet" media="print" href="styles/print.css">
+		<link rel="stylesheet" media="print"onload="this.media='all'" media="screen" href="styles/screen.css">
+		<link rel="stylesheet"  media="print"onload="this.media='all'" media="print" href="styles/print.css">
 		<link rel="icon" type="image/x-icon" href="images/logo.png">
 	</head>
 	<body>
